@@ -1,6 +1,6 @@
 package tv.twelvetone.storage.iface;
 
-public enum StorgeLocation {
+public enum StorageLocation {
 	Volatile, Persitant
 
 }

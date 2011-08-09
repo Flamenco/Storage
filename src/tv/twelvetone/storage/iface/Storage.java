@@ -1,7 +1,7 @@
 package tv.twelvetone.storage.iface;
 
 public interface Storage {
-	StorgeLocation getStorageLocation();
+	StorageLocation getStorageLocation();
 
 	StorageSecurity getStorageSecurity();
 

@@ -4,13 +4,13 @@ import tv.twelvetone.storage.iface.Storage;
 import tv.twelvetone.storage.iface.StoragePermission;
 import tv.twelvetone.storage.iface.StoragePersitance;
 import tv.twelvetone.storage.iface.StorageSecurity;
-import tv.twelvetone.storage.iface.StorgeLocation;
+import tv.twelvetone.storage.iface.StorageLocation;
 
 public class HtmlLocalStorage implements Storage {
 
 	@Override
-	public StorgeLocation getStorageLocation() {
-		return StorgeLocation.Persitant;
+	public StorageLocation getStorageLocation() {
+		return StorageLocation.Persitant;
 	}
 
 	@Override
